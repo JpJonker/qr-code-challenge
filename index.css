@@ -1,0 +1,45 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.qr-code-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+
+    width: 300px;
+    padding: 1em 0;
+    border-radius: 1.5em;
+
+    box-shadow: 1px 1px  15px #0003;
+}
+
+.qr-code-image {
+    width: 260px;
+    height: 260px;
+
+    border-radius: 1em;
+}
+
+.qr-code-text {
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    padding: 0 2em;
+}
+
+.qr-code-text h3 {
+    font-weight: 700;
+}
+
+.qr-code-text p {
+    font-size: 0.9em;
+    font-weight: 400;
+    opacity: 0.5;
+}
