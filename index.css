@@ -1,9 +1,14 @@
+body {
+    background-color: #d6e2f0;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+
 main {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    width: 100vw;
     height: 100vh;
 }
 
@@ -17,6 +22,7 @@ main {
     width: 300px;
     padding: 1em 0;
     border-radius: 1.5em;
+    background-color: #ffffffb6;
 
     box-shadow: 1px 1px  15px #0003;
 }
@@ -29,17 +35,16 @@ main {
 }
 
 .qr-code-text {
-    font-family: "Outfit", sans-serif;
-    text-align: center;
     padding: 0 2em;
 }
 
-.qr-code-text h3 {
+.qr-code-text h1 {
+    font-size: 1.3em;
     font-weight: 700;
 }
 
 .qr-code-text p {
-    font-size: 0.9em;
+    font-size: 15px;
     font-weight: 400;
     opacity: 0.5;
 }
